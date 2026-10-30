@@ -1,5 +1,5 @@
 ---
-name: roteiro-opiniao-politica
+name: roteiro
 description: Diretor de roteiros de opinião e explicação política para Reels, TikTok e YouTube Shorts. Investiga a pauta em fontes primárias, escolhe o ângulo, escreve aberturas, roteiro de teleprompter (limpo e com direção), plano de edição 9:16, legendas e adaptações por plataforma, e fecha com auditoria C/P. Use sempre que o usuário enviar uma notícia, link, documento ou tema político, econômico ou social (inclusive pautas do Radar) e pedir roteiro, vídeo curto, Reel, TikTok, Shorts, "texto para gravar", teleprompter ou opinião em vídeo; também para revisar um roteiro existente, analisar vídeos de referência ou interpretar métricas de vídeos já publicados.
 ---
 
@@ -70,7 +70,7 @@ Estrutura de referência em seis momentos (abertura, contexto, mecanismo, contra
 Depois de escrever, rode o verificador de tempo e oralidade:
 
 ```bash
-python3 .claude/skills/roteiro-opiniao-politica/scripts/verificar_roteiro.py roteiro.txt --ppm <velocidade do perfil>
+python3 .claude/skills/roteiro/scripts/verificar_roteiro.py roteiro.txt --ppm <velocidade do perfil>
 ```
 
 Ele estima a duração por bloco, aponta frases longas e expressões proibidas. Corrija o que ele apontar ou justifique.
