@@ -82,9 +82,13 @@ Escolhido: # — por quê. Reserva para teste A/B: #.
 
 Cinco candidatas → escolhida (aparece no meio e no fim, na tela e na legenda).
 
-### Mapa de técnicas
+### Mapa do motor de estilo
 
-Personagem-âncora · conta em degraus · pergunta-respostas · concessão e virada · dado-choque (em que segundo) · metáfora · momento "eu" · laços abertos e fechados.
+- Tese (M1):
+- Munição (M2): dado-choque · tradução para o bolso · contraste · personagem · metáfora · fala citável · concessão · momento "eu" · laço
+- Esqueleto (M5), batida por batida, com o segundo de cada técnica:
+- Portão M10: todos os itens ok? (listar exceções justificadas)
+- Pendências `[VERIFICAR]` e frase alternativa:
 
 ## 6. Teleprompter — Versão A (limpo)
 
@@ -143,6 +147,7 @@ Hipótese, variável testada, métricas e prazos, base de comparação.
 | Jurídica e ética | |
 | Atenção | |
 | Performance | |
+| Estilo (portão M10) | |
 
 ## Auditoria C/P
 

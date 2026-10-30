@@ -1,5 +1,7 @@
 # Estilo Falado e Técnicas de Roteiro Digital
 
+> Este arquivo é o **repertório**. A **ordem de aplicação** obrigatória está em `motor-de-estilo.md`.
+
 Base: análise de 12 vídeos de referência enviados pelo usuário em out/2026 (Caio Coppolla, Deltan Dallagnol, Leo Siqueira, Marina Helena, Paulo Ostermann [nome a confirmar], Renan Santos), transcritos automaticamente e examinados quadro a quadro, mais o guia interno "Roteiro Engajante — Técnica de Vídeo Político". Os exemplos citados servem para mostrar a **técnica**. A skill não copia frases, bordões nem estruturas inteiras desses comunicadores, e os fatos ditos nesses vídeos **não foram verificados**.
 
 ## Sumário

@@ -1,6 +1,6 @@
 ---
 name: roteiro
-description: Diretor de roteiros de opinião e explicação política para Reels, TikTok e YouTube Shorts. Investiga a pauta em fontes primárias, escolhe o ângulo, escreve aberturas, roteiro de teleprompter (limpo e com direção), plano de edição 9:16, legendas e adaptações por plataforma, e fecha com auditoria C/P. Use sempre que o usuário enviar uma notícia, link, documento ou tema político, econômico ou social (inclusive pautas do Radar) e pedir roteiro, vídeo curto, Reel, TikTok, Shorts, "texto para gravar", teleprompter ou opinião em vídeo; também para revisar um roteiro existente, analisar vídeos de referência ou interpretar métricas de vídeos já publicados.
+description: Diretor de roteiros de opinião e explicação política para Reels, TikTok e YouTube Shorts. Investiga a pauta em fontes primárias, escolhe o ângulo, escreve aberturas, roteiro de teleprompter (limpo e com direção), plano de edição 9:16, legendas e adaptações por plataforma, e fecha com auditoria C/P. Use sempre que o usuário enviar uma notícia, link, documento ou tema político, econômico ou social (inclusive pautas do Radar) e pedir roteiro, vídeo curto, Reel, TikTok, Shorts, "texto para gravar", teleprompter ou opinião em vídeo; também para transformar qualquer assunto, texto ou rascunho em roteiro falado no estilo dos comunicadores de referência (motor de estilo), para revisar um roteiro existente, analisar vídeos de referência ou interpretar métricas de vídeos já publicados.
 ---
 
 # Diretor de Roteiros de Opinião Política
@@ -30,11 +30,14 @@ Princípios inegociáveis:
 |---|---|---|
 | COMPLETO | Padrão | Os 12 itens + auditoria C/P (`assets/modelo-entrega.md`) |
 | EXPRESSO | Pauta quente, prazo curto | Itens 1, 2, 4 (com 2 ângulos alternativos em uma linha cada), 3 aberturas, 6, 7, 9, 10 e C/P curto. A verificação factual **não** é reduzida |
-| REVISAR | Usuário traz roteiro pronto | Auditoria do texto recebido + versão reescrita + C/P |
+| REVISAR | Usuário traz roteiro pronto | Auditoria do texto recebido + versão reescrita pelo motor de estilo + tabela "o que mudou" + C/P |
+| ESTILO | Usuário traz um assunto, texto ou rascunho e pede "transforma em roteiro" | Verificação rápida dos fatos essenciais (busca + tabela de alegações curta) + motor de estilo completo + mapa do motor + pendências `[VERIFICAR]` + C/P curto |
 | REFERÊNCIA | Usuário traz vídeo/transcrição de terceiros | Análise técnica conforme `references/direcao-e-edicao.md` §Referências |
 | MÉTRICAS | Usuário traz números de vídeos publicados | Análise + próximo experimento conforme `references/metricas-e-experimentos.md` |
 
 3. Confira a data de hoje. Ela entra no resumo factual e na checagem de período eleitoral.
+
+> **Motor de estilo obrigatório.** Em todos os modos que entregam roteiro (COMPLETO, EXPRESSO, REVISAR, ESTILO), o texto final sugerido é escrito pelo procedimento de `references/motor-de-estilo.md` (passos M1 a M10) e só é entregue depois de passar pelo portão de estilo (M10). Não há texto final fora do motor.
 
 ## Fluxo do modo COMPLETO
 
@@ -59,32 +62,31 @@ Consulte as fontes oficiais listadas (central de criadores, blogs oficiais, regr
 
 Desenvolva cinco ângulos (A detalhe despercebido; B consequência concreta; C mecanismo; D comparação válida; E pergunta não respondida). Para cada um: ideia central, o que o espectador aprende, evidência que sustenta, elemento narrativo, visual, principal objeção. Escolha pela matriz de critérios (originalidade, clareza, sustentação factual, utilidade, viabilidade audiovisual). Nunca escolha só por ser o mais agressivo.
 
-### Etapa 4 — Formato e ganchos → `references/estilo-e-tecnicas.md` §2–3
+### Etapa 4 — Formato → `references/estilo-e-tecnicas.md` §3
 
-Escolha o formato (reação rápida 45–75 s, explicação 90–150 s, desmonte 2–3 min, alegoria). Escreva seis ganchos de **tipos diferentes**, tirados dos 12 tipos do guia de estilo (pergunta-rótulo, pergunta bifurcada, fala do adversário, ironia invertida, fato + conta para o espectador, tese do padrão, elogio inesperado, escala surpreendente etc.). Cada gancho tem fala, texto do primeiro quadro (até 8 palavras) e promessa. Cada um precisa ser entendido por quem não conhece o assunto, funcionar **sem som** e prometer só o que o vídeo entrega. Escolha um e guarde o segundo melhor para teste A/B.
+Escolha o formato pela pauta: reação rápida (45–75 s), explicação (90–150 s), desmonte (2–3 min) ou alegoria. Ele define o esqueleto de batidas do motor.
 
-### Etapa 5 — Texto falado → `references/estilo-e-tecnicas.md` e `references/escrita-oral.md`
+### Etapa 5 — Texto final pelo motor de estilo → `references/motor-de-estilo.md`
 
-**Leia o guia de estilo inteiro e o exemplo `assets/exemplo-estilo.md` antes de escrever.** O texto deve soar como os comunicadores de referência: frases de 8 a 12 palavras, staccato nos momentos de impacto, "tá?", "né?", "olha", "pra", segunda pessoa, pergunta e resposta, ironia seca. Cada roteiro precisa ter:
+**Leia `references/motor-de-estilo.md`, `references/estilo-e-tecnicas.md` e `assets/exemplo-estilo.md` antes de escrever.** Execute os passos em ordem:
 
-- personagem-âncora ou segmento do público chamado pelo nome;
-- conta em degraus ou tradução para o bolso, quando houver número;
-- concessão honesta seguida de virada (o contraponto, em forma oral);
-- dado-choque no segundo terço;
-- uma **frase-âncora** (5 versões, escolha 1), dita no meio e repetida no fechamento;
-- uma metáfora ou comparação concreta e verificada;
-- um momento "eu" verdadeiro;
-- no máximo 2 chamadas, coerentes com o conteúdo, e a assinatura do apresentador.
-
-O estilo é dos referentes; o rigor é da skill. Nenhuma técnica autoriza o que está em "O que não copiar". Não estique o vídeo para preencher tempo.
-
-Depois de escrever, rode o verificador de tempo e oralidade:
+- **M1** Tese em uma frase.
+- **M2** Mapa de munição: dado-choque, tradução para o bolso, contraste, personagem, metáfora, fala citável, concessão, momento "eu", laço.
+- **M3** Cinco frases-âncora e a escolha de uma, que aparece no meio e no fim.
+- **M4** Seis ganchos de tipos diferentes, um escolhido e um de reserva para A/B.
+- **M5** Esqueleto de batidas do formato.
+- **M6** Redação falada: 8 a 12 palavras por frase, staccato, pergunta-resposta, marcadores de conversa, atribuição e opinião sinalizada.
+- **M7** Tabela de transformações (de texto escrito para texto falado).
+- **M8** Quatro passadas de lapidação: corte, concreto, voz e blindagem factual.
+- **M9** Verificador:
 
 ```bash
 python3 .claude/skills/roteiro/scripts/verificar_roteiro.py roteiro.txt --ppm <velocidade do perfil; padrão 190> --alvo <segundos do formato>
 ```
 
-Ele estima a duração por bloco, aponta frases longas, expressões proibidas e falta de ritmo (pergunta-resposta, staccato), e lista a frase-âncora repetida. Corrija o que ele apontar ou justifique.
+- **M10** Portão de estilo. Se algum item falhar, volte ao passo indicado.
+
+O estilo é dos referentes; o rigor é da skill. O motor só usa fatos que passaram pela Etapa 1. O que não foi confirmado entra como `[VERIFICAR]` ou sai. Nenhuma técnica autoriza o que está em "O que não copiar". Não estique o vídeo para preencher tempo.
 
 ### Etapa 6 — Direção, teleprompter e edição → `references/direcao-e-edicao.md`
 
@@ -94,11 +96,11 @@ Ele estima a duração por bloco, aponta frases longas, expressões proibidas e 
 
 ### Etapa 7 — Autocrítica e auditoria → `references/auditoria-cp.md`
 
-Execute as cinco revisões separadas (factual, argumentativa, jurídica/ética, atenção, performance), corrija antes de entregar e registre o que mudou. Em seguida, aplique a auditoria C/P com justificativa, elo mais fraco e travas. Revisão pelo próprio modelo não é verificação externa: não use isso para elevar notas.
+Execute as seis revisões separadas (factual, argumentativa, jurídica/ética, atenção, performance, estilo pelo portão M10), corrija antes de entregar e registre o que mudou. Em seguida, aplique a auditoria C/P com justificativa, elo mais fraco e travas. Revisão pelo próprio modelo não é verificação externa: não use isso para elevar notas.
 
 ### Etapa 8 — Entregar
 
-Use exatamente a estrutura de `assets/modelo-entrega.md`. Se houver sistema de arquivos, salve em `roteiros/AAAA-MM-DD-<slug>.md` e o teleprompter limpo em `roteiros/AAAA-MM-DD-<slug>-teleprompter.txt`. Na conversa, mostre o painel de decisão, o teleprompter limpo e a auditoria C/P, e aponte o arquivo para o restante.
+Use exatamente a estrutura de `assets/modelo-entrega.md`. Se houver sistema de arquivos, salve em `roteiros/AAAA-MM-DD-<slug>.md` e o teleprompter limpo em `roteiros/AAAA-MM-DD-<slug>-teleprompter.txt`. Na conversa, mostre o painel de decisão, o teleprompter limpo, o mapa do motor (resumido), as pendências `[VERIFICAR]` e a auditoria C/P, e aponte o arquivo para o restante.
 
 Se o usuário quiser editar o vídeo gravado, o plano de edição serve de entrada para a skill de edição de vídeo vertical (`videomaker`), quando disponível.
 

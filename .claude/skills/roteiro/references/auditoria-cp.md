@@ -1,6 +1,6 @@
 # Autocrítica e Auditoria C/P
 
-## 1. Cinco revisões separadas por objetivo
+## 1. Seis revisões separadas por objetivo
 
 Faça cada revisão em uma passada própria, com uma única pergunta em mente. Corrija antes de entregar e registre no relatório o que mudou em cada uma ("nenhuma alteração" também é registro).
 
@@ -11,6 +11,7 @@ Observação de honestidade: são revisões feitas pelo mesmo modelo que escreve
 3. **Jurídica e ética.** Há imputação sem prova, fase processual errada, intenção atribuída sem demonstração, citação fora de contexto, exposição de pessoa privada, risco eleitoral? A crítica mira atos e argumentos, não pessoas?
 4. **Atenção.** O vídeo começa direto no assunto? Funciona sem som? Há trecho sem informação nova? A promessa da abertura foi cumprida? O fechamento é claro?
 5. **Performance.** O texto lê com naturalidade? Há frases longas, palavras pouco orais, encontros difíceis, excesso de instruções na Versão A? A duração estimada cabe no alvo?
+6. **Estilo.** O texto passa no portão M10 do motor de estilo (`motor-de-estilo.md`)? Algum item falhou? Volte ao passo indicado.
 
 ## 2. Escala C — confiabilidade da conclusão factual
 
@@ -43,7 +44,7 @@ Não é credencial de quem escreveu.
 - **P4:** especializado; profundidade e julgamento de especialista experiente nos critérios examinados.
 - **P5:** excelência aparente; cumpre P4 e é comparado explicitamente com diretrizes ou trabalhos externos de referência, sem falha material conhecida.
 
-Critérios para P neste tipo de trabalho: precisão factual, separação fato/opinião, qualidade do contraponto, clareza oral, aderência à voz do apresentador, cumprimento da promessa da abertura, viabilidade de gravação e edição, conformidade jurídica e de plataforma.
+Critérios para P neste tipo de trabalho: precisão factual, separação fato/opinião, qualidade do contraponto, clareza oral, cumprimento do motor de estilo (portão M10), aderência à voz do apresentador, cumprimento da promessa da abertura, viabilidade de gravação e edição, conformidade jurídica e de plataforma.
 
 Travas:
 
