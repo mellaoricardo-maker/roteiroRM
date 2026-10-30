@@ -63,18 +63,28 @@ Ideia central · O que aprende · Evidência · Interesse narrativo · Visual ·
 
 Matriz de critérios e justificativa.
 
-## 5. Seis aberturas
+## 5. Formato e seis ganchos
 
-| # | Estrutura | Fala | Texto de tela | Promessa |
+Formato: reação rápida / explicação / desmonte / alegoria — por quê.
+
+| # | Tipo de gancho | Fala | Texto de tela | Promessa |
 |---|---|---|---|---|
-| 1 | Pergunta substantiva | | | |
-| 2 | Fato inesperado | | | |
-| 3 | Contraste | | | |
-| 4 | Consequência prática | | | |
-| 5 | Exemplo concreto | | | |
-| 6 | Paradoxo aparente | | | |
+| 1 | | | | |
+| 2 | | | | |
+| 3 | | | | |
+| 4 | | | | |
+| 5 | | | | |
+| 6 | | | | |
 
-Escolhida: # — por quê.
+Escolhido: # — por quê. Reserva para teste A/B: #.
+
+### Frase-âncora
+
+Cinco candidatas → escolhida (aparece no meio e no fim, na tela e na legenda).
+
+### Mapa de técnicas
+
+Personagem-âncora · conta em degraus · pergunta-respostas · concessão e virada · dado-choque (em que segundo) · metáfora · momento "eu" · laços abertos e fechados.
 
 ## 6. Teleprompter — Versão A (limpo)
 

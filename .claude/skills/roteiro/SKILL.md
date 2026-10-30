@@ -59,21 +59,32 @@ Consulte as fontes oficiais listadas (central de criadores, blogs oficiais, regr
 
 Desenvolva cinco ângulos (A detalhe despercebido; B consequência concreta; C mecanismo; D comparação válida; E pergunta não respondida). Para cada um: ideia central, o que o espectador aprende, evidência que sustenta, elemento narrativo, visual, principal objeção. Escolha pela matriz de critérios (originalidade, clareza, sustentação factual, utilidade, viabilidade audiovisual). Nunca escolha só por ser o mais agressivo.
 
-### Etapa 4 — Aberturas → `references/escrita-oral.md` §Aberturas
+### Etapa 4 — Formato e ganchos → `references/estilo-e-tecnicas.md` §2–3
 
-Seis aberturas com estruturas diferentes (pergunta substantiva, fato inesperado verificável, contraste, consequência prática, exemplo concreto, paradoxo aparente). Cada uma precisa: ser entendida por quem não conhece o assunto, funcionar **sem som** (texto de tela), e prometer só o que o vídeo entrega. Escolha uma e justifique.
+Escolha o formato (reação rápida 45–75 s, explicação 90–150 s, desmonte 2–3 min, alegoria). Escreva seis ganchos de **tipos diferentes**, tirados dos 12 tipos do guia de estilo (pergunta-rótulo, pergunta bifurcada, fala do adversário, ironia invertida, fato + conta para o espectador, tese do padrão, elogio inesperado, escala surpreendente etc.). Cada gancho tem fala, texto do primeiro quadro (até 8 palavras) e promessa. Cada um precisa ser entendido por quem não conhece o assunto, funcionar **sem som** e prometer só o que o vídeo entrega. Escolha um e guarde o segundo melhor para teste A/B.
 
-### Etapa 5 — Narrativa e texto oral → `references/escrita-oral.md`
+### Etapa 5 — Texto falado → `references/estilo-e-tecnicas.md` e `references/escrita-oral.md`
 
-Estrutura de referência em seis momentos (abertura, contexto, mecanismo, contraponto, conclusão, fechamento) para 45–60 s, ajustável. O contraponto é a versão mais forte do argumento contrário (steelman), formulada de modo que um adversário honesto a reconheceria. Aplique as regras de oralidade e a lista de frases proibidas. Não estique o vídeo para preencher tempo.
+**Leia o guia de estilo inteiro e o exemplo `assets/exemplo-estilo.md` antes de escrever.** O texto deve soar como os comunicadores de referência: frases de 8 a 12 palavras, staccato nos momentos de impacto, "tá?", "né?", "olha", "pra", segunda pessoa, pergunta e resposta, ironia seca. Cada roteiro precisa ter:
+
+- personagem-âncora ou segmento do público chamado pelo nome;
+- conta em degraus ou tradução para o bolso, quando houver número;
+- concessão honesta seguida de virada (o contraponto, em forma oral);
+- dado-choque no segundo terço;
+- uma **frase-âncora** (5 versões, escolha 1), dita no meio e repetida no fechamento;
+- uma metáfora ou comparação concreta e verificada;
+- um momento "eu" verdadeiro;
+- no máximo 2 chamadas, coerentes com o conteúdo, e a assinatura do apresentador.
+
+O estilo é dos referentes; o rigor é da skill. Nenhuma técnica autoriza o que está em "O que não copiar". Não estique o vídeo para preencher tempo.
 
 Depois de escrever, rode o verificador de tempo e oralidade:
 
 ```bash
-python3 .claude/skills/roteiro/scripts/verificar_roteiro.py roteiro.txt --ppm <velocidade do perfil>
+python3 .claude/skills/roteiro/scripts/verificar_roteiro.py roteiro.txt --ppm <velocidade do perfil; padrão 190> --alvo <segundos do formato>
 ```
 
-Ele estima a duração por bloco, aponta frases longas e expressões proibidas. Corrija o que ele apontar ou justifique.
+Ele estima a duração por bloco, aponta frases longas, expressões proibidas e falta de ritmo (pergunta-resposta, staccato), e lista a frase-âncora repetida. Corrija o que ele apontar ou justifique.
 
 ### Etapa 6 — Direção, teleprompter e edição → `references/direcao-e-edicao.md`
 

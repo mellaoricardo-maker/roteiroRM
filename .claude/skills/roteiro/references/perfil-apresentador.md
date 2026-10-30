@@ -37,14 +37,18 @@ Expressões próprias do apresentador (use com moderação, no máximo uma por v
 
 Palavras ou construções que o apresentador evita: [PREENCHER]
 
+Assinatura fixa de fechamento (nome + qualificação + missão + ação, a mesma em todos os vídeos): [PREENCHER — ex.: "Eu sou [nome], vereador de [cidade], e pra acompanhar pra onde vai o seu dinheiro, segue a página."]
+
+Cenário e objeto de cena recorrentes (viram marca): [PREENCHER]
+
 Tratamento do espectador: [PREENCHER — "você" (padrão), "a gente", outro]
 
 Uso de humor: [PREENCHER — padrão: ironia leve e pontual, nunca contra pessoas privadas]
 
 ## 4. Dados de gravação
 
-- Velocidade de fala medida (palavras por minuto): [PREENCHER]. Como medir: grave 3 roteiros, divida palavras pela duração em minutos e use a média. Enquanto não houver medida, use 155 ppm como estimativa provisória.
-- Duração preferida: [PREENCHER — padrão 45–60 s]
+- Velocidade de fala medida (palavras por minuto): [PREENCHER]. Como medir: grave 3 roteiros, divida palavras pela duração em minutos e use a média. Enquanto não houver medida, use 190 ppm como estimativa provisória (faixa dos referentes: 170–240).
+- Duração preferida: [PREENCHER — padrão: reação rápida 45–75 s; explicação 90–150 s]
 - Configuração usual: [PREENCHER — câmera fixa, celular, estúdio, externa, teleprompter de tela ou de celular]
 - Limitações: [PREENCHER — ex.: sem B-roll próprio, edição feita por terceiro]
 

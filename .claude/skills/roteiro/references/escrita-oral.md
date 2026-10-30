@@ -56,6 +56,8 @@ Trava: ângulo com sustentação factual ≤ 2 não pode ser escolhido, qualquer
 
 ## 3. Aberturas
 
+> Os 12 tipos de gancho com exemplos reais estão em `estilo-e-tecnicas.md` §2. Esta seção traz os critérios.
+
 Seis possibilidades, cada uma com estrutura diferente:
 
 1. Pergunta substantiva.
@@ -86,7 +88,7 @@ Evite:
 
 ## 4. Narrativa em seis momentos
 
-Referência para 45–60 segundos. É uma hipótese de produção, ajustável ao assunto e ao ritmo de fala.
+Referência para o formato de reação rápida (45–60 s). Nos formatos de explicação e desmonte (90 s a 3 min, os mais comuns entre os referentes), estique proporcionalmente o desenvolvimento e o contraponto (ver `estilo-e-tecnicas.md` §3, Formatos). É uma hipótese de produção, ajustável ao assunto e ao ritmo de fala.
 
 | Momento | Tempo de referência | Função |
 |---|---|---|
@@ -101,7 +103,7 @@ Regras:
 
 - **Contraponto honesto (steelman):** formule a objeção como seu defensor mais competente formularia, e responda com fato ou admita o limite. Pode ser mais curto que 15 s se a objeção for simples; nunca um espantalho.
 - **Transição explícita entre fato e opinião:** "Isso é o que os documentos mostram. Agora, a minha leitura:" ou equivalente na voz do apresentador.
-- **Fechamento** não pede curtida nem seguidor por padrão. Se houver chamada, que seja para algo útil (ver o documento, acompanhar o desdobramento) e no máximo uma.
+- **Fechamento:** repete a frase-âncora e termina com pergunta binária ou chamada coerente com o conteúdo. No máximo 2 chamadas, mais a assinatura do apresentador (ver `estilo-e-tecnicas.md` §6).
 - Não prolongue o vídeo para preencher a duração. Se a ideia se resolve em 35 s, o vídeo tem 35 s.
 - Uma ideia central por vídeo. Se surgirem duas, proponha uma série.
 
@@ -110,7 +112,7 @@ Regras:
 Reescreva até que cada frase seja pronunciável com naturalidade.
 
 - Uma ideia principal por frase.
-- Frases curtas predominam (referência: até 15–18 palavras; alterne com frases muito curtas para ritmo).
+- Frases curtas predominam: até 15 palavras, ideal 8 a 12. As de impacto têm menos de 7, e há pelo menos uma sequência em staccato.
 - Verbos concretos; voz ativa quando apropriado.
 - Corte substantivos abstratos desnecessários ("a questão da implementação" → "implementar").
 - Elimine redundâncias e introduções vazias.
@@ -144,6 +146,7 @@ Vícios de texto de IA:
 Iscas de engajamento:
 
 - "Você não vai acreditar", "Fique até o final", "Comenta aí se você concorda", "Manda pra quem precisa ver isso" logo na abertura.
+- Pilha de chamadas no fim ("compartilha, comenta, se inscreve, curte, vira membro").
 - "A verdade que escondem de você", "A mídia não mostra".
 
 Ataques sem conteúdo:
@@ -154,7 +157,7 @@ Ataques sem conteúdo:
 
 Duração ≈ palavras ÷ velocidade de fala (palavras por minuto) × 60.
 
-- Use a velocidade medida no perfil. Sem medida, use 155 ppm como estimativa provisória para português brasileiro em fala conversacional firme; a faixa usual vai de cerca de 130 a 180 ppm conforme a pessoa.
+- Use a velocidade medida no perfil. Sem medida, use 190 ppm como estimativa provisória. Nos 12 vídeos de referência medidos, a velocidade foi de 136 ppm (alegoria lenta) a 242 ppm, e a maioria ficou entre 180 e 220.
 - Some cerca de 0,5 s por pausa marcada.
-- Referência: 60 s a 155 ppm ≈ 155 palavras, menos as pausas.
+- Referência: 60 s a 190 ppm ≈ 190 palavras, menos as pausas; 2 min ≈ 380 palavras.
 - A estimativa é provisória até a gravação. Depois de gravar, registre a duração real no registro de experimentos para recalibrar.

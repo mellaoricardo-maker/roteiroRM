@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Verifica um teleprompter limpo (Versão A): duração estimada, frases longas e expressões proibidas.
+"""Verifica um teleprompter limpo (Versão A): duração, frases longas, expressões proibidas e ritmo.
 
 Uso:
-    python3 verificar_roteiro.py roteiro.txt [--ppm 155] [--max-palavras 18] [--pausa 0.5] [--alvo 60]
+    python3 verificar_roteiro.py roteiro.txt [--ppm 190] [--max-palavras 15] [--pausa 0.1] [--alvo 60]
 
 Entrada: texto puro. Blocos separados por linha em branco; cada linha é uma unidade de respiração.
-Saída: tabela por bloco com tempo acumulado, alertas e resumo. Código de saída 1 se houver alertas.
+Saída: tabela por bloco com tempo acumulado, alertas, painel de ritmo e resumo. Código de saída 1 se houver alertas.
 """
 import argparse
 import re
@@ -29,6 +29,8 @@ PROIBIDAS = [
 
 ENCHIMENTO = ["simplesmente", "literalmente", "basicamente"]
 
+CHAMADAS = ["segue", "siga", "compartilh", "comenta", "inscrev", "curt", "manda esse", "ativa o sino", "vira membro"]
+
 
 def normalizar(texto):
     sem_acento = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode()
@@ -51,9 +53,9 @@ def fmt(segundos):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("arquivo")
-    ap.add_argument("--ppm", type=float, default=155, help="palavras por minuto do apresentador")
-    ap.add_argument("--max-palavras", type=int, default=18, help="limite de palavras por frase")
-    ap.add_argument("--pausa", type=float, default=0.5, help="segundos somados por quebra de linha entre frases")
+    ap.add_argument("--ppm", type=float, default=190, help="palavras por minuto do apresentador")
+    ap.add_argument("--max-palavras", type=int, default=15, help="limite de palavras por frase")
+    ap.add_argument("--pausa", type=float, default=0.1, help="segundos extras por quebra de linha (a velocidade medida já inclui as pausas naturais)")
     ap.add_argument("--alvo", type=float, default=60, help="duração-alvo em segundos")
     args = ap.parse_args()
 
@@ -95,6 +97,40 @@ def main():
             if re.search(r"\b" + termo + r"\b", norm):
                 alertas += 1
                 print(f"ENCHIMENTO (bloco {i}): \"{termo}\"")
+
+    # Painel de ritmo
+    todas = [fr for b in blocos for fr in frases(b)]
+    tam = [len(palavras(fr)) for fr in todas]
+    pr = sum(1 for a, b in zip(todas, todas[1:]) if a.endswith("?") and len(palavras(b)) <= 6)
+    staccato, seq = 0, 0
+    for n in tam:
+        seq = seq + 1 if n <= 4 else 0
+        if seq == 3:
+            staccato += 1
+    vistas = {}
+    for fr in todas:
+        chave = normalizar(fr).strip(" .!?")
+        if 5 <= len(chave.split()) <= 14:
+            vistas[chave] = vistas.get(chave, 0) + 1
+    ancoras = [k for k, v in vistas.items() if v >= 2]
+    chamadas = sorted({c for c in CHAMADAS if re.search(r"\b" + c, normalizar(blocos[-1] if blocos else ""))})
+    print()
+    print("RITMO")
+    if tam:
+        print(f"  Palavras por frase: média {sum(tam) / len(tam):.1f} (alvo 8 a 12)")
+    print(f"  Pergunta-resposta: {pr} (alvo 2 a 4)")
+    print(f"  Sequências em staccato (3+ frases de até 4 palavras): {staccato} (alvo 1 ou mais)")
+    print(f"  Frase-âncora repetida: {ancoras[0] if ancoras else 'nenhuma'}")
+    print(f"  Chamadas no último bloco: {', '.join(chamadas) if chamadas else 'nenhuma'}")
+    if tam and sum(tam) / len(tam) > 12:
+        alertas += 1
+        print("  ALERTA: frases longas em média; quebre em frases menores.")
+    if not ancoras:
+        alertas += 1
+        print("  ALERTA: nenhuma frase-âncora repetida (diga no meio e repita no fim).")
+    if len(chamadas) > 2:
+        alertas += 1
+        print("  ALERTA: mais de 2 chamadas no fechamento.")
 
     duracao = max(acumulado - args.pausa, 0)
     print()

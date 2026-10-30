@@ -51,6 +51,8 @@ Regras:
 
 ## 3. Direção audiovisual 9:16
 
+Padrões visuais observados nos referentes (legenda dinâmica com palavra destacada, tela dividida, print com número circulado, cartela de número, preto e branco na crítica, objeto de cena): ver `estilo-e-tecnicas.md` §8.
+
 Folha de edição por momento:
 
 | Momento | Início–fim | Fala | Enquadramento | Corte | Texto na tela | Imagem / documento / gráfico / B-roll (com fonte) | Som | Música |
@@ -72,7 +74,7 @@ Diretrizes:
 
 ## 4. Aprendizado com referências
 
-Repertório de observação informado pelo usuário: Caio Coppolla, Samer Agi, Leo Siqueira, Nine Borg, Renan Santos, Raphael Lima.
+Repertório de observação informado pelo usuário: Caio Coppolla, Samer Agi, Leo Siqueira, Nine Borg, Renan Santos, Raphael Lima, Deltan Dallagnol, Marina Helena e Ostermann. A análise de 12 vídeos de parte deles já está consolidada em `estilo-e-tecnicas.md`; novas análises devem atualizar aquele arquivo (técnicas, tabela de velocidade, o que não copiar).
 
 Não pressuponha ter visto os vídeos deles. Só analise o que for fornecido (vídeo, link acessível ou transcrição verificável) e diga quando a análise se baseia apenas em transcrição (sem acesso a voz, pausas e imagem).
 
