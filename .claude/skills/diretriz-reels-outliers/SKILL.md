@@ -1,6 +1,6 @@
 ---
 name: diretriz-reels-outliers
-description: Aplica a diretriz de Reels que estouram (padrões extraídos de outliers de perfis políticos, jurídicos e econômicos) para pontuar pautas, escrever ou revisar roteiros e planejar a edição de vídeos curtos (Reels, TikTok, Shorts). Use sempre que o usuário pedir para escolher ou ranquear pautas do radar, dizer "qual pauta tem mais chance de viralizar", escrever roteiro de Reel político, jurídico ou econômico, revisar ou melhorar um roteiro ou gancho, sugerir formato de edição, ou perguntar "por que esse vídeo não performou" — mesmo que não cite a diretriz. Também use junto das skills de roteiro e de radar de pautas, como camada de critérios.
+description: Aplica a diretriz de Reels que estouram (padrões de outliers de perfis políticos, jurídicos e econômicos) para pontuar pautas, escrever ou revisar roteiros e planejar a edição de vídeos curtos (Reels, TikTok, Shorts), e faz a varredura de contraponto. Use sempre que o usuário pedir para escolher ou ranquear pautas do radar, saber qual pauta tem mais chance de viralizar, escrever ou revisar roteiro ou gancho de Reel político, jurídico ou econômico, sugerir formato de edição ou entender por que um vídeo não performou, mesmo sem citar a diretriz. Use também para procurar falas, vídeos, entrevistas, podcasts ou posts de políticos, ministros, ministros do STF, influenciadores, jornalistas ou especialistas que contrariem a pauta liberal na economia e conservadora nos costumes, para rebater ("faz a varredura de contraponto", "o que a esquerda falou essa semana sobre imposto"). Funciona junto das skills de roteiro e de radar de pautas.
 ---
 
 # Diretriz de Reels outliers
@@ -89,6 +89,20 @@ Escolha **um** formato e descreva segundo a segundo os primeiros 5 s e, depois, 
 - **Gravação da tela fazendo a conta:** busca, calculadora, gráfico — o espectador vê o caminho.
 
 Em todos: texto-gancho no quadro zero; legenda palavra a palavra quando há fala própria; produção simples (celular, luz natural); sem trilha de efeito nem transições elaboradas; cortes secos (6–15 por minuto na fala própria).
+
+## Modo 5 — Varredura de contraponto
+
+Procura, nas últimas 72 h, falas públicas de figuras conhecidas (governo, parlamentares de esquerda, ministros do STF, influenciadores, jornalistas, economistas) que contrariem a pauta **liberal na economia e conservadora nos costumes**, para o usuário rebater. Leia `references/varredura-contraponto.md` antes de começar: lá estão a lista de quem monitorar, as fontes por prioridade, os temas que disparam o alerta, o cartão de pauta e as regras de integridade.
+
+1. **Coleta automática (quando o ScrapeCreators está disponível, no Claude Code):**
+   `python3 scripts/varrer.py --arquivo references/termos-contraponto.txt --dias 3 --out candidatos.json`
+   (ajuste os termos à semana; com poucos créditos, `--fontes ig,tt`). Custa 1 crédito por termo e por fonte — avise o usuário antes de passar de 30.
+   O resultado mistura tudo: a fala original, cortes de terceiros, comentários de canais de **qualquer** lado sobre a pessoa e ruído (homônimos). É só a lista de pistas: o passo 3 separa a fala original. Os títulos do YouTube podem vir traduzidos para o inglês; o vídeo é o original. Resultados sem data são descartados por padrão.
+2. **Coleta na web e nas fontes oficiais (sempre):** notas taquigráficas da Câmara e do Senado, canal do STF no YouTube, entrevistas e podcasts da semana, busca `site:youtube.com "[nome]" "[tema]"`. Sem ScrapeCreators (ex.: no chat do claude.ai), é a única via — diga que os números de views ficam incompletos.
+3. **Para cada candidato forte:** ache a **fonte original** e a **frase exata no contexto** (transcrição do vídeo ou nota taquigráfica). Se não achar a origem, ou se o contexto muda o sentido, descarte.
+4. **Pontue** no Modo 1 e monte o **cartão de pauta** da referência. Entregue os **5 melhores**, ordenados pela pontuação, e uma linha para cada descartado com o motivo.
+
+O alvo é sempre declaração pública de pessoa pública. Critique a ideia e o ato, nunca a pessoa; nada de corte que distorça, vídeo manipulado ou frase atribuída sem fonte — além de errado, isso destrói a credibilidade de quem rebate.
 
 ## Checklist (usar nos modos 2 e 3)
 
