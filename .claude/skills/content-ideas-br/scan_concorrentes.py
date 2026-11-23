@@ -88,7 +88,7 @@ def business_discovery(handle, n, getter=graph_get):
     profile, media, after = None, [], None
     while len(media) < n:
         page = f"media.limit({min(50, n - len(media))})" + (f".after({after})" if after else "")
-        fields = (f"business_discovery.username({handle}){{username,name,biography,followers_count,"
+        fields = (f"business_discovery.username({handle}){{username,name,biography,website,followers_count,follows_count,"
                   f"media_count,{page}{{{MEDIA_FIELDS}}}}}")
         d = getter(f"{graph}/{uid}?" + urllib.parse.urlencode({"fields": fields, "access_token": token}))
         if "error" in d:
