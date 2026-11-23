@@ -1,9 +1,9 @@
 # Diretriz de roteiro, edição e pauta — padrões de outliers em perfis políticos pequenos
 
 **Para:** skills de roteiro (`roteiro`, `roteiro-viral-reels-ricardomellao` e estilos) e de radar de pautas (`radar-completo-pautas-tendencias`, `sistema-editorial-consolidado`).
-**Base:** pesquisa de 23/11/2026 (ver "Evidência" no fim). Revisar a cada 3 meses ou quando os testes próprios contradisserem algo.
+**Base:** pesquisa de 23/11/2026 — perfis políticos de 10 mil a 50 mil seguidores (Partes A–D) e pautas jurídicas e econômicas em perfis de todos os tamanhos (Parte F). Ver "Evidência" no fim. Revisar a cada 3 meses ou quando os testes próprios contradisserem algo.
 
-**Como usar:** o radar usa a Parte A para pontuar pautas; o roteiro usa as Partes B e C ao escrever e o Checklist D antes de entregar. Cada regra traz a força da evidência: **[forte]** apareceu em vários perfis e na estatística; **[médio]** em 3 ou mais dos 12 vídeos analisados; **[fraco]** indício a testar. Regra fraca nunca bloqueia um roteiro; serve de sugestão.
+**Como usar:** o radar usa a Parte A (e F1, se a pauta for jurídica ou econômica) para pontuar pautas; o roteiro usa as Partes B, C e F2–F4 ao escrever e o Checklist D antes de entregar. Cada regra traz a força da evidência: **[forte]** apareceu em vários perfis e na estatística; **[médio]** em 3 ou mais dos 12 vídeos analisados; **[fraco]** indício a testar. Regra fraca nunca bloqueia um roteiro; serve de sugestão.
 
 ---
 
@@ -80,7 +80,43 @@ Ação cívica ou cobrança, não pedido genérico de seguir: *"Você precisa vo
 
 ---
 
-## E. Limites — o que esta diretriz não sustenta
+## F. Pautas jurídicas e econômicas — o que muda
+
+Base: 406 Reels de 18 perfis jurídicos e econômicos (9 mil a 2 milhões de seguidores: advogados de direitos, INSS, dívidas e trânsito, tributaristas, economistas, delegada) e 11 outliers dissecados (ver tabela no fim). O núcleo é o mesmo da política — algo conhecido + algo em jogo + prova —, mas **o que está em jogo é pessoal e prático**, não partidário.
+
+### F1. Radar — o que pontua nessas pautas
+1. **Instituição ou autoridade que decide [médio].** STF, Receita, INSS, CNJ, Justiça, TCU, ministro nomeado: Reels com isso na legenda estouraram 30% das vezes, contra 21% (83 contra 302 Reels). Autoridade nomeada (Fachin, Haddad, Lula…): 29% contra 22%.
+2. **Data ou prazo [médio].** "A partir de novembro", "em 2027", "amanhã no STF": 30% contra 21% (88 contra 297).
+3. **Regra que mudou e afeta o bolso, a conta, a empresa ou um direito [médio].** Bloqueio de conta que passa a durar um ano (40×), Receita mudando declaração do Simples (14×), nova lei para fibromialgia (51×, perfil de 25 mil).
+4. **Debate econômico do momento que "ninguém entendeu" [fraco].** Proposta, número ou fala que está sendo discutida e precisa de tradução (Monica de Bolle, 11×, 904 mil views).
+5. **O que não pontua aqui:** 🚨/URGENTE não faz diferença (22% contra 23%) — o nicho usa demais e o alerta saturou. **Pergunta na legenda atrapalha** (15% contra 27%): é a marca do post educativo genérico ("Você sabia…?").
+
+**Ajuste na pontuação do radar (Parte A) para pauta jurídica ou econômica:** instituição/autoridade que decide +2 · regra nova com efeito pessoal (conta, salário, imposto, benefício, empresa) +2 · data ou prazo +1 · objeto com preço conhecido +1 · debate do momento que precisa de tradução +1.
+
+### F2. Roteiro — mecânicas próprias
+- **"Isso vai te atingir" na primeira frase [médio].** *"Se a sua empresa está no Simples, essa mudança vai te atingir."* · *"Bloqueio de contas por até um ano."* · *"Se cair dinheiro na sua conta, você corre o risco de perder."* O medo de perder pesa mais que a promessa de ganhar.
+- **Antes × agora [médio].** *"Como funcionava? … E agora, com a mudança, como vai funcionar?"* Estrutura natural para regra nova; cabe em 50–70 s.
+- **Objeto conhecido com preço, e a conta feita na tela [médio].** O outlier mais forte do conjunto (290×, perfil de 9 mil seguidores) abre com a foto viral do carro popular a R$ 38.990 em 2020 e R$ 85.000 em 2026 e faz a conta ao vivo na calculadora, na tela do celular. O espectador acompanha passo a passo. *Atenção:* a tese desse vídeo (inflação real = aumento do M2) é contestável — a mecânica funciona, mas o roteiro do usuário só usa números e relações com fonte que se sustentam.
+- **Caso real com conta simples falada [médio].** *"Tenho um cliente dono de bares… a 6×1 aumenta 25% a folha, a folha é 30% do custo, a margem é 10%: ele vai a zero."* Três números e uma conclusão que qualquer um refaz.
+- **Traduzir o debate com história [fraco].** *"O Brasil é o único país que teve hiperinflação por 25 anos…"* — contexto curto que faz o espectador entender o que os outros estão discutindo.
+- **Mitos em rajada: "verdade ou mentira?" [médio, sempre atual].** Uma pergunta por pessoa, resposta em uma palavra, 9 itens em 69 s. Formato de direitos que fez 24,7 milhões de views e continua circulando anos depois.
+- **Fechamento prático:** *"Fique atento", "salve este vídeo", "compartilhe com quem tem dívida", "agora você sabe e não vai ser enganado"*. Aqui o pedido de salvar/compartilhar faz sentido, porque o vídeo é útil.
+- **Velocidade de fala:** monólogos autorais a 3,6–3,7 palavras por segundo (mais rápidos que os políticos); cortes de TV, 2,7–2,9.
+
+### F3. Edição — formatos que se repetiram
+1. **Autoridade em cima, criador embaixo:** metade superior com foto ou vídeo da autoridade (ministro do STF, presidente assinando) e manchete em caixa vermelha ou azul; metade inferior com o advogado falando à câmera.
+2. **Corte de TV com frase-bomba:** trecho de programa de TV e, embaixo, a fala entre aspas em letras grandes (*"ESCALA 6X1: 'A GENTE ESTÁ CALCULANDO QUANTOS BARES VÃO FECHAR', AFIRMA MUSA"*).
+3. **Gravação da tela fazendo a conta:** busca no Google, calculadora do Banco Central, gráfico — o espectador vê o caminho, não só o resultado.
+4. **Logo da instituição na tela** (Receita Federal, Simples Nacional) junto do título-alerta.
+5. **Cartão estático com rosto do personagem e print do texto em debate**, narrado.
+6. **Esquete curta de perguntas e respostas**, duas pessoas, legenda única.
+
+### F4. Alerta de integridade
+O maior outlier jurídico recente (61×, 2,2 milhões de views) promete *"FACHIN toma a decisão que os professores menos esperavam"* e mostra apenas o ministro lendo a pauta da sessão seguinte. O rosto da autoridade e a promessa vendem — mas é isca. **Não usar promessa que o vídeo não entrega**: engana o público, desgasta a credibilidade e expõe a questionamento. O mesmo vale para teses econômicas virais sem sustentação (F2, terceiro item).
+
+---
+
+## G. Limites — o que esta diretriz não sustenta
 
 - **Correlação, não causa.** Os padrões descrevem o que os vídeos que estouraram têm em comum; não provam que aplicá-los faz um vídeo estourar. O teste na própria conta é a única confirmação.
 - **Período eleitoral.** A amostra cobre setembro a novembro de 2026, com eleição em outubro; temas e alcance estavam inflados. Reavaliar em fevereiro de 2027.
@@ -113,5 +149,21 @@ Ação cívica ou cobrança, não pedido genérico de seguir: *"Você precisa vo
 | 10 | @umjovempaulo | 18× | 171 mil | 94 s | Reação + manchete | "Contaram que o Tarcísio aumentou? É mentira… mentiu de novo" |
 | 11 | @alessandroguedessp | 11× | 56 mil | 67 s | Selfie + provas em tela cheia | Prefeitura rompe contrato com ONG |
 | 12 | @pedro.costajr | 4× | 86 mil | 70 s | Corte de podcast | "Lula vai entregar as terras raras à China?" |
+
+**Pautas jurídicas e econômicas (Parte F), 11 vídeos dissecados** (perfis achados pela busca de Reels em 20 temas; 24 Reels por perfil; "estourou" = ≥ 3× a mediana, sem impulsionamento):
+
+| # | Perfil (seguidores) | Múltiplo | Views | Duração | Formato | Mecânica principal |
+|---|---|---|---|---|---|---|
+| 1 | @dr.gustavorequi (9 mil) | 290× | 170 mil | 120 s | Rosto + gravação de tela | Preço do carro 2020 × 2026 e conta ao vivo |
+| 2 | @liecionogueiraadv (235 mil) | 61× | 2,2 mi | 47 s | Vídeo do STF + manchete | Autoridade + promessa (isca; ver F4) |
+| 3 | @simonesadvogada (26 mil) | 51× | 66 mil | 169 s | Corte de entrevista de TV | Nova lei: direitos de quem tem fibromialgia |
+| 4 | @joaomarcussi.adv (350 mil) | 40× | 478 mil | 54 s | Autoridade em cima, criador embaixo | Bloqueio de conta por até um ano: antes × agora |
+| 5 | @joaomarcussi.adv | 10× | 126 mil | 57 s | Autoridade em cima, criador embaixo | Bancos que entram no teste a partir de hoje |
+| 6 | @bruno_musa (278 mil) | 18× | 663 mil | 89 s | Corte de TV + frase-bomba | Caso do dono de bares: conta da 6×1 |
+| 7 | @bruno_musa | 16× | 603 mil | 153 s | Corte de TV + frase-bomba | "Quem vai a Aspen continua indo; quem não compra carne é o pobre" |
+| 8 | @nayradelduca (785 mil) | 14× | 236 mil | 71 s | Selfie + logo da Receita | "Se sua empresa está no Simples, isso vai te atingir" |
+| 9 | @monicadebolle (139 mil) | 11× | 904 mil | 179 s | Cartão estático narrado | "Ninguém entendeu a proposta do André Lara Resende" |
+| 10 | @mariafernanda.br (908 mil) | 8× | 1,8 mi | 83 s | Meme de desenho + reação | Ironia sobre eleitores que mudam de estado |
+| 11 | @escobaradvogados (1,2 mi) | 708× | 24,7 mi | 69 s | Esquete verdade ou mentira | Mitos de direitos em rajada (vídeo antigo, sempre atual) |
 
 **Confiabilidade (escala C/P):** padrões descritivos (o que os outliers têm) **C3** — dados conferidos diretamente; regras como recomendação de "o que fazer" **C2** — correlação em amostra pequena, período eleitoral, sem teste próprio. Padrão do trabalho **P3**.
