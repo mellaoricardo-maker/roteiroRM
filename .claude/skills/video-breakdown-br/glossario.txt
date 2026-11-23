@@ -1,0 +1,36 @@
+# Glossário para a transcrição (um termo por linha; linhas com # são ignoradas).
+# Ajuda o Whisper a grafar certo nomes próprios e siglas. Mantenha curto (~40 termos):
+# o Whisper só usa o começo do texto. Para personalizar sem mexer na skill, copie
+# para ~/.config/transcricao-br/glossario.txt — esse arquivo tem prioridade.
+Ricardo Mellão
+Alesp
+Assembleia Legislativa de São Paulo
+Tarcísio de Freitas
+Lula
+Bolsonaro
+Haddad
+Alckmin
+Ricardo Nunes
+Câmara dos Deputados
+Senado Federal
+STF
+TCU
+TCE-SP
+Ministério Público
+PEC
+LDO
+LOA
+ICMS
+INSS
+SUS
+Sabesp
+Metrô
+CPTM
+Novo
+PL
+PT
+PSDB
+MDB
+União Brasil
+PSD
+Republicanos
