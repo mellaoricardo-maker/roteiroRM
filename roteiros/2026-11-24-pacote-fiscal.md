@@ -1,7 +1,9 @@
 # Pacote fiscal (PLP 299/2026) — Roteiro
 
 Data: 2026-11-24 | Modo: EXPRESSO (verificação factual completa) | Plataforma: Reels (serve para TikTok e Shorts)
-Versão 1 (explicação): ~62 s (183 palavras a 190 ppm) | Versão 2 (viral): ~38 s (114 palavras)
+Versão 1 (explicação): ~90 s (267 palavras a 190 ppm) | Versão 2 (viral): ~48 s (142 palavras)
+
+> **Revisão de 24/11:** o bloco dos créditos foi ampliado. Agora explica o mecanismo, usa a analogia do troco e mostra o caminho até a pessoa comum, rotulado como risco e opinião.
 
 ## 0. Painel de decisão
 
@@ -25,9 +27,11 @@ Versão 1 (explicação): ~62 s (183 palavras a 190 ppm) | Versão 2 (viral): ~3
 | Gancho + lead | 0–14 s | Pacote de até 56 bi aprovado, 353 votos, vai à sanção | De onde sai o dinheiro? | D1 | Placar da Agência Câmara |
 | Concessão | 14–22 s | O que é bom: corta desconto de imposto, Bolsa Família de fora | "Então qual é o problema?" | D1 | Trecho da Agência Câmara (relator) |
 | D1 | 24–33 s | ~7 de cada 10 reais vêm de arrecadação | "E é dinheiro novo?" | D2 | Gráfico de barras com as 4 parcelas (nota Conorf, p. 2) |
-| D2 | 33–48 s | Parte é adiamento: crédito das empresas e repasse a SP | "Tem coisa pior?" | D3 | Nota Conorf: "redução da compensação, e não extinção"; Quadro 8 da Lei Kandir |
-| D3 (trunfo, ~78%) | 48–55 s | A IFI diz que nem assim fecha 2027 | — | — | Manchete atribuída à IFI (InfoMoney / Gazeta do Povo) |
-| Saída + CTA | 55–62 s | "E o gasto, cortou onde?" + mandar para alguém | — | — | Âncora em tela cheia |
+| D2a | 33–48 s | Como funciona o crédito: a empresa paga em dinheiro agora, o crédito fica para depois, sem prazo | "E o que eu tenho com isso?" | D2b | Trecho da nota Conorf §3.3.1 e do art. 6º-F |
+| D2b | 48–68 s | O troco e o caminho até você: empréstimo, juro, preço, vaga, investimento (risco) | "E os estados?" | D2c | Animação do troco; legenda "risco, não certeza" |
+| D2c | 68–75 s | SP recebe metade do repasse, o resto depois | "Tem coisa pior?" | D3 | Quadro 8 da nota Conorf |
+| D3 (trunfo, ~85%) | 76–83 s | A IFI diz que nem assim fecha 2027 | — | — | Manchete atribuída à IFI (InfoMoney / Gazeta do Povo) |
+| Saída + CTA | 83–90 s | "E o gasto, cortou onde?" + mandar para alguém | — | — | Âncora em tela cheia |
 
 ## 1. Resumo factual
 
@@ -45,7 +49,9 @@ Na madrugada de 23/11/2026, a Câmara aprovou o PLP 299/2026 por 353 a 128, com 
 5. InfoMoney, "Pacote fiscal depende 70% de receita incerta…", sobre a IFI. https://www.infomoney.com.br/economia/plp-299-2026-ifi-orcamento-2027-receitas-incertas/
 6. Gazeta do Povo, "IFI cobra ajuste fiscal mais profundo de Lula para 2027". https://www.gazetadopovo.com.br/economia/ajuste-fiscal-lula-votado-camara-nao-e-suficiente-conter-divida/
 7. Jota, sobre o acordo da Lei Kandir e o impacto em SP (Comsefaz). https://www.jota.info/legislativo/apos-mudancas-do-senado-plp-do-pacote-fiscal-segue-para-analise-da-camara
-8. CNI, posicionamento sobre o corte de incentivos. https://noticias.portaldaindustria.com.br/posicionamentos/projeto-que-reduz-incentivos-fiscais-aumentara-carga-tributaria-e-atingira-em-cheio-a-industria-avalia-cni/
+8. Fenacon, nota pública sobre o PLP 299/2026, 12/11/2026. https://fenacon.org.br/wp-content/uploads/2026/11/FCOM0020-Nota_Publica_FENACON_PLP_299_2026_vFinal-12.11.2026.pdf
+9. Gazeta do Povo, "Senado trava compensação tributária e pesa no caixa de empresas". https://www.gazetadopovo.com.br/economia/senado-trava-compensacao-tributaria-e-joga-ajuste-fiscal-no-caixa-das-empresas/
+10. CNI, posicionamento sobre o corte de incentivos. https://noticias.portaldaindustria.com.br/posicionamentos/projeto-que-reduz-incentivos-fiscais-aumentara-carga-tributaria-e-atingira-em-cheio-a-industria-avalia-cni/
 
 ### Tabela de alegações essenciais
 
@@ -55,7 +61,10 @@ Na madrugada de 23/11/2026, a Câmara aprovou o PLP 299/2026 por 353 a 128, com 
 | 2 | 353 votos, vai à sanção | Agência Câmara | Placar e destino | Nenhuma relevante | Erro grave: conferir antes de gravar |
 | 3 | Bolsa Família fica de fora | Agência Câmara (fala do relator) | Atribuição | Não conferi no texto da lei | Atribuir: "segundo o relator" |
 | 4 | "Uns 7 de cada 10 reais vêm de arrecadação" | Conorf p. 2, conta refeita abaixo | Conta | São estimativas do Executivo, não revistas | Dizer "a maior parte" |
-| 5 | Empresa paga em dinheiro agora, crédito fica para depois | Conorf §3.3.1: "redução da compensação, e não da extinção dos créditos" | Trecho literal | A nota "não detalha o tratamento do crédito não compensado" | Por isso o vídeo diz "pode ter que" |
+| 5 | Empresa pode ter que pagar em dinheiro agora; o crédito fica para depois | Conorf §3.3.1: "redução da compensação, e não da extinção dos créditos"; art. 6º-F | Trecho literal | Só vale em ano de contingenciamento preventivo; os percentuais dependem de ato do Executivo, que pode nem usar | Por isso o vídeo diz "pode" |
+| 5a | Crédito = imposto pago a mais ou ganho na Justiça | Conorf p. 11: "tributo pago a maior, créditos acumulados de PIS/Cofins ou créditos reconhecidos em decisão judicial" | Trecho literal | — | — |
+| 5b | "A lei não diz quando" devolve | Conorf: "não detalha o tratamento do crédito não compensado"; Fenacon e Gazeta do Povo: o texto não traz prazo para a liberação | Nota primária e duas fontes secundárias | Também não diz se o crédito parado é corrigido (normalmente pela Selic) | Dizer "a lei não detalha" |
+| 5c | Empréstimo → preço, vaga e investimento | Mecanismo econômico: falta de capital de giro, segundo Fenacon e escritórios tributários; repasse a preço, segundo a CNI | Fontes interessadas | **Nenhum estudo independente mediu esse efeito** | Por isso está rotulado "o risco, na minha leitura" (C2) |
 | 6 | SP recebe metade do repasse, o resto depois | Agência Câmara (R$ 4 bi → R$ 2 bi por ano); Conorf: "adiamento, e não corte" | Total nacional | A parte de SP é inferida pela proporção fixa de cada estado | Dizer "os estados recebem metade" |
 | 7 | IFI: nem assim fecha 2027 | InfoMoney e Gazeta do Povo, citando a IFI | Duas reportagens | Não li o relatório da IFI | Retirar o trunfo e encerrar na D2 |
 
@@ -90,7 +99,10 @@ Na madrugada de 23/11/2026, a Câmara aprovou o PLP 299/2026 por 353 a 128, com 
 | 4 Concessão | Calma, justiça | Meio sorriso em "tem coisa boa ali, tá?". Tom de quem reconhece de verdade. |
 | 5 "E a conta é OUTRA" | Virada | Pausa curta antes. Ênfase só em "outra". |
 | 6–7 D1, âncora | Surpresa com dado | Dado frio. A pergunta da âncora sai quase irônica, sem gritar. |
-| 8–10 D2 | Indignação contida | Ritmo um pouco mais rápido. "Isso é empurrar a conta" num tom seco, de opinião. |
+| 8–9 D2a | Didático | Mais devagar, como quem explica para um amigo. Ênfase só em "QUANDO". |
+| 10 Troco | Ironia leve | Pode gesticular, "pagando" e "esperando o troco". Meio sorriso. |
+| 11 Caminho até você | Preocupação com saída | Firme e mais baixo. "Na minha leitura" bem audível: é opinião, não fato. |
+| 12 SP | Dado frio | Rápido. |
 | 11–13 Trunfo | Pico | Pausa longa (//) antes de "A IFI". Voz baixa e firme. |
 | 14–15 Saída e CTA | Agência | Volta o calor. A âncora vira uma ferramenta para o espectador usar. Fecho olhando para a lente. |
 
@@ -100,21 +112,23 @@ Na madrugada de 23/11/2026, a Câmara aprovou o PLP 299/2026 por 353 a 128, com 
 - **8 s:** print do placar da Agência Câmara, "353 x 128". Crédito: Agência Câmara, 23/11/2026.
 - **14 s:** trecho do relator sobre o Bolsa Família. Crédito: Agência Câmara.
 - **24 s:** gráfico de barras com as 4 parcelas. A receita em amarelo, o gasto em verde. Legenda: "Fonte: Consultoria de Orçamento do Senado, 13/11/2026". **É o trecho para salvar e compartilhar.**
-- **33 s:** trecho da nota em tela cheia: "trata da redução da compensação, e não da extinção dos créditos".
-- **41 s:** Quadro 8 da nota (Lei Kandir, R$ 4 bi → menos) com mapa de SP. Legenda: "Adiamento, não corte" (Conorf).
-- **48 s:** zoom seco. Manchete atribuída: "IFI: pacote não basta para 2027" (InfoMoney / Gazeta do Povo).
-- **55 s:** âncora em tela cheia: "E O GASTO, CORTOU ONDE?"
+- **33 s:** trecho da nota em tela cheia: "trata da redução da compensação, e não da extinção dos créditos". Em "a lei não diz QUANDO": relógio ou ponto de interrogação.
+- **48 s:** animação simples do troco: uma nota sai da mão do empresário e a moeda do troco fica "presa" no balcão da Receita. Rótulo visível: "ilustração".
+- **58 s:** setas sequenciais: empréstimo → juro → preço / vaga / investimento. Legenda fixa: "risco, não certeza".
+- **68 s:** Quadro 8 da nota (Lei Kandir, R$ 4 bi → menos) com mapa de SP. Legenda: "Adiamento, não corte" (Conorf).
+- **76 s:** zoom seco. Manchete atribuída: "IFI: pacote não basta para 2027" (InfoMoney / Gazeta do Povo).
+- **83 s:** âncora em tela cheia: "E O GASTO, CORTOU ONDE?"
 - **Legendas:** curtas e brancas, com destaque amarelo em números e verde-limão em "arrecadação" e "adiar". Zona segura: deixar livres 250 px embaixo e 120 px no topo.
 
 ## 5. Medidas (verificar_roteiro.py e fala.py, 190 ppm)
 
 | Medida | V1 | V2 |
 |---|---|---|
-| Duração estimada | 62 s (alvo 60; 2 s de margem aceita) | 38 s |
+| Duração estimada | 90 s (formato explicação, 90–150 s) | 48 s |
 | Frases com mais de 20 palavras | 0 | 0 |
 | Palavras de 4 sílabas ou mais | 2% | 4% |
 | Âncora repetida | ok | ok |
-| Alertas do verificador | 1 (duração) | 0 |
+| Alertas do verificador | 1 (passa 0,2 s do alvo) | 0 |
 | "você/seu" por minuto | ~1 | 0 |
 
 O "você/seu" por minuto está abaixo do alvo de rebate. É uma escolha consciente para o alvo AMPLIAR: o roteiro fala da conta, não acusa o espectador.
@@ -129,5 +143,6 @@ O "você/seu" por minuto está abaixo do alvo de rebate. É uma escolha conscien
 - **P4 para o roteiro.**
   - **Fundamentos:** fontes primárias, argumento dos dois lados com refutação, prova em cada descoberta, ressalvas incorporadas ao texto ("pode ter que").
   - **Por que não P5:** não foi comparado com um critério externo de roteiro, e as métricas de atenção do público são fracas. Às 07h, o tema aparecia só num vídeo em alta no YouTube; não estava no X nem no Google Trends.
+- **Bloco dos créditos:** C4 para o mecanismo (texto da lei e nota Conorf). **C2 para o dano à pessoa comum**: é um mecanismo plausível, defendido por partes interessadas e sem medição independente. Por isso aparece como "o risco, na minha leitura".
 - **Limites de uso:** o vídeo não autoriza dizer que haverá aumento de preço, nem que o governo "não cortou nada". O teto de 2% e o contingenciamento existem.
 - **Próxima verificação:** o relatório da IFI (RAF de novembro/2026).
